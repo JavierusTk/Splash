@@ -1,0 +1,1237 @@
+[2025-09-09 20:24:42.031] === Debug System Initialized ===
+[2025-09-09 20:24:42.169] === SplashScreen.exe Started ===
+[2025-09-09 20:24:42.184] Command line: /pid: /DEBUG
+[2025-09-09 20:24:42.184] ParseFromCommandLine: Parsing "/pid: /DEBUG"
+[2025-09-09 20:24:42.200] Final config - App: "", Version: "1.0", Loading: "Cargando", Learn: " (aprendiendo)", Beta: True, Start: "Inicializando sistema", Logo: ""
+[2025-09-09 20:24:42.216] Parent PID: 0
+[2025-09-09 20:24:42.231] ERROR: No parent PID provided - terminating
+[2025-09-09 20:24:42.247] === Debug System Finalized ===
+[2025-09-09 20:25:07.169] === Debug System Initialized ===
+[2025-09-09 20:25:07.184] === SplashScreen.exe Started ===
+[2025-09-09 20:25:07.184] Command line: /pid:17089 /DEBUG
+[2025-09-09 20:25:07.200] ParseFromCommandLine: Parsing "/pid:17089 /DEBUG"
+[2025-09-09 20:25:07.200] Final config - App: "", Version: "1.0", Loading: "Cargando", Learn: " (aprendiendo)", Beta: True, Start: "Inicializando sistema", Logo: ""
+[2025-09-09 20:25:07.215] Parent PID: 17089
+[2025-09-09 20:25:07.231] ERROR: Parent process 17089 does not exist - terminating
+[2025-09-09 20:25:07.247] === Debug System Finalized ===
+[2025-09-09 20:25:31.993] === Debug System Initialized ===
+[2025-09-09 20:25:31.997] === SplashScreen.exe Started ===
+[2025-09-09 20:25:32.012] Command line: /pid:17156 /DEBUG
+[2025-09-09 20:25:32.028] ParseFromCommandLine: Parsing "/pid:17156 /DEBUG"
+[2025-09-09 20:25:32.028] Final config - App: "", Version: "1.0", Loading: "Cargando", Learn: " (aprendiendo)", Beta: True, Start: "Inicializando sistema", Logo: ""
+[2025-09-09 20:25:32.043] Parent PID: 17156
+[2025-09-09 20:25:32.059] ERROR: Parent process 17156 does not exist - terminating
+[2025-09-09 20:25:32.075] === Debug System Finalized ===
+[2025-09-09 20:26:31.919] === Debug System Initialized ===
+[2025-09-09 20:26:31.934] === SplashScreen.exe Started ===
+[2025-09-09 20:26:31.950] Command line: /pid:17430 /DEBUG
+[2025-09-09 20:26:31.964] ParseFromCommandLine: Parsing "/pid:17430 /DEBUG"
+[2025-09-09 20:26:31.975] Final config - App: "", Version: "1.0", Loading: "Cargando", Learn: " (aprendiendo)", Beta: True, Start: "Inicializando sistema", Logo: ""
+[2025-09-09 20:26:31.995] Parent PID: 17430
+[2025-09-09 20:26:32.020] DEBUG: Skipping parent process check for testing
+[2025-09-09 20:26:32.036] Parent process 17430 verified - proceeding
+[2025-09-09 20:26:32.044] TProgressHistory.Create: Constructor called, about to load from file
+[2025-09-09 20:26:32.070] LoadFromFile: Method called
+[2025-09-09 20:26:32.082] ParseFromCommandLine: Parsing "SplashScreen.exe /pid:17430 /DEBUG"
+[2025-09-09 20:26:32.092] Final config - App: "", Version: "1.0", Loading: "Cargando", Learn: " (aprendiendo)", Beta: True, Start: "Inicializando sistema", Logo: ""
+[2025-09-09 20:26:32.103] GetHistoryFilePath: C:\Users\CYBER\AppData\Roaming\SplashScreen\splash_history.json
+[2025-09-09 20:26:32.108] LoadFromFile: History file path: C:\Users\CYBER\AppData\Roaming\SplashScreen\splash_history.json
+[2025-09-09 20:26:32.124] LoadFromFile: File exists: True
+[2025-09-09 20:26:32.137] LoadFromFile: JSON text length: 1728
+[2025-09-09 20:26:32.153] LoadFromFile: Exception loading values: Invalid date string: 09/09/2025 13:32:27
+[2025-09-09 20:26:32.154] LoadFromFile: Loading 13 phases from JSON
+[2025-09-09 20:26:32.171] Loaded phase: "Initializing application..." with 1 durations
+[2025-09-09 20:26:32.194] Loaded phase: "Loading configuration..." with 1 durations
+[2025-09-09 20:26:32.207] Loaded phase: "Connecting to database..." with 1 durations
+[2025-09-09 20:26:32.245] Loaded phase: "Loading user interface..." with 1 durations
+[2025-09-09 20:26:32.245] Loaded phase: "Ready!" with 1 durations
+[2025-09-09 20:26:32.280] Loaded phase: "Inicializando sistema" with 4 durations
+[2025-09-09 20:26:32.297] Loaded phase: "Cargando configuración" with 4 durations
+[2025-09-09 20:26:32.311] Loaded phase: "Verificando licencias" with 4 durations
+[2025-09-09 20:26:32.325] Loaded phase: "Loading Logistics DB" with 4 durations
+[2025-09-09 20:26:32.340] Loaded phase: "Registering Customers" with 4 durations
+[2025-09-09 20:26:32.357] Loaded phase: "Cargando módulos" with 4 durations
+[2025-09-09 20:26:32.373] Loaded phase: "Preparando interfaz" with 4 durations
+[2025-09-09 20:26:32.386] Loaded phase: "Listo" with 4 durations
+[2025-09-09 20:26:32.397] TProgressHistory.Create: LoadFromFile completed, phases count: 13, executionCount: 5
+[2025-09-09 20:26:32.417] ParseFromCommandLine: Parsing "SplashScreen.exe /pid:17430 /DEBUG"
+[2025-09-09 20:26:32.440] Final config - App: "", Version: "1.0", Loading: "Cargando", Learn: " (aprendiendo)", Beta: True, Start: "Inicializando sistema", Logo: ""
+[2025-09-09 20:26:32.456] Session started. Learning mode: False
+[2025-09-09 20:26:32.476] All managers created successfully
+[2025-09-09 20:26:32.488] ModernSplash form created and initialized
+[2025-09-09 20:26:32.494] Splash form created successfully
+[2025-09-09 20:26:32.520] Splash initialized with config - App: "SplashScreen", Version: "1.0"
+[2025-09-09 20:26:32.548] Splash form initialized with configuration
+[2025-09-09 20:26:32.560] Failed to initialize IPC monitor: Failed to open mutex
+[2025-09-09 20:26:32.575] Failed to start IPC monitoring: Failed to open mutex
+[2025-09-09 20:26:32.588] ModernSplash form closing
+[2025-09-09 20:26:32.597] Saving ProgressHistory...
+[2025-09-09 20:26:32.614] RecordPhaseEnd: SKIPPED (already ended or invalid state)
+[2025-09-09 20:26:32.627] ParseFromCommandLine: Parsing "SplashScreen.exe /pid:17430 /DEBUG"
+[2025-09-09 20:26:32.641] Final config - App: "", Version: "1.0", Loading: "Cargando", Learn: " (aprendiendo)", Beta: True, Start: "Inicializando sistema", Logo: ""
+[2025-09-09 20:26:32.656] GetHistoryFilePath: C:\Users\CYBER\AppData\Roaming\SplashScreen\splash_history.json
+[2025-09-09 20:26:32.669] ProgressHistory.SaveToFile called - Path: C:\Users\CYBER\AppData\Roaming\SplashScreen\splash_history.json
+[2025-09-09 20:26:32.688] Execution count incremented to: 6 (first save)
+[2025-09-09 20:26:32.696] ProgressHistory.SaveToFile SUCCESS - Saved to: C:\Users\CYBER\AppData\Roaming\SplashScreen\splash_history.json
+[2025-09-09 20:26:32.715] JSON CONTENT: {"totalDuration":9176,"executionCount":6,"lastExecutionTime":"09/09/2025 20:26:32","phases":[{"name":"Initializing application...","progress":5,"averageDuration":453,"standardDeviation":0.0,"durations":[453]},{"name":"Loading configuration...","progress":14,"averageDuration":828,"standardDeviation":0.0,"durations":[828]},{"name":"Connecting to database...","progress":21,"averageDuration":625,"standardDeviation":0.0,"durations":[625]},{"name":"Loading user interface...","progress":26,"averageDuration":422,"standardDeviation":0.0,"durations":[422]},{"name":"Ready!","progress":31,"averageDuration":438,"standardDeviation":0.0,"durations":[438]},{"name":"Inicializando sistema","progress":36,"averageDuration":460,"standardDeviation":47.0637865030004,"durations":[500,500,406,437]},{"name":"Cargando configuración","progress":47,"averageDuration":1035,"standardDeviation":23.2880512996114,"durations":[1016,1046,1016,1063]},{"name":"Verificando licencias","progress":52,"averageDuration":418,"standardDeviation":15.3188337241014,"durations":[422,438,406,406]},{"name":"Loading Logistics DB","progress":59,"averageDuration":667,"standardDeviation":107.102754399689,"durations":[609,625,609,828]},{"name":"Registering Customers","progress":65,"averageDuration":562,"standardDeviation":103.94229168149,"durations":[609,609,625,407]},{"name":"Cargando módulos","progress":74,"averageDuration":812,"standardDeviation":12.6885775404495,"durations":[813,813,797,828]},{"name":"Preparando interfaz","progress":85,"averageDuration":1023,"standardDeviation":171.99709299869,"durations":[1031,1015,813,1234]},{"name":"Listo","progress":100,"averageDuration":1433,"standardDeviation":175.678683965927,"durations":[1422,1485,1625,1203]}]}
+[2025-09-09 20:26:32.735] Ending StatusMapper session...
+[2025-09-09 20:26:32.757] ParseFromCommandLine: Parsing "SplashScreen.exe /pid:17430 /DEBUG"
+[2025-09-09 20:26:32.772] Final config - App: "", Version: "1.0", Loading: "Cargando", Learn: " (aprendiendo)", Beta: True, Start: "Inicializando sistema", Logo: ""
+[2025-09-09 20:26:32.796] AdaptiveLearning.SaveToFile called - Path: C:\Users\CYBER\AppData\Roaming\SplashScreen\splash_learning.json
+[2025-09-09 20:26:32.813] AdaptiveLearning.SaveToFile SUCCESS - Saved to: C:\Users\CYBER\AppData\Roaming\SplashScreen\splash_learning.json
+[2025-09-09 20:26:32.833] Session ended. Total executions: 5
+[2025-09-09 20:26:32.844] IPC monitoring started
+[2025-09-09 20:26:32.859] Starting application message loop
+[2025-09-09 20:26:33.216] Application terminated normally
+[2025-09-09 20:26:33.252] ModernSplash form destroying
+[2025-09-09 20:26:33.262] Saving ProgressHistory...
+[2025-09-09 20:26:33.308] RecordPhaseEnd: SKIPPED (already ended or invalid state)
+[2025-09-09 20:26:33.325] ParseFromCommandLine: Parsing "SplashScreen.exe /pid:17430 /DEBUG"
+[2025-09-09 20:26:33.356] Final config - App: "", Version: "1.0", Loading: "Cargando", Learn: " (aprendiendo)", Beta: True, Start: "Inicializando sistema", Logo: ""
+[2025-09-09 20:26:33.366] GetHistoryFilePath: C:\Users\CYBER\AppData\Roaming\SplashScreen\splash_history.json
+[2025-09-09 20:26:33.382] ProgressHistory.SaveToFile called - Path: C:\Users\CYBER\AppData\Roaming\SplashScreen\splash_history.json
+[2025-09-09 20:26:33.390] Execution count NOT incremented (subsequent save), remains: 6
+[2025-09-09 20:26:33.405] ProgressHistory.SaveToFile SUCCESS - Saved to: C:\Users\CYBER\AppData\Roaming\SplashScreen\splash_history.json
+[2025-09-09 20:26:33.405] JSON CONTENT: {"totalDuration":9176,"executionCount":6,"lastExecutionTime":"09/09/2025 20:26:33","phases":[{"name":"Initializing application...","progress":5,"averageDuration":453,"standardDeviation":0.0,"durations":[453]},{"name":"Loading configuration...","progress":14,"averageDuration":828,"standardDeviation":0.0,"durations":[828]},{"name":"Connecting to database...","progress":21,"averageDuration":625,"standardDeviation":0.0,"durations":[625]},{"name":"Loading user interface...","progress":26,"averageDuration":422,"standardDeviation":0.0,"durations":[422]},{"name":"Ready!","progress":31,"averageDuration":438,"standardDeviation":0.0,"durations":[438]},{"name":"Inicializando sistema","progress":36,"averageDuration":460,"standardDeviation":47.0637865030004,"durations":[500,500,406,437]},{"name":"Cargando configuración","progress":47,"averageDuration":1035,"standardDeviation":23.2880512996114,"durations":[1016,1046,1016,1063]},{"name":"Verificando licencias","progress":52,"averageDuration":418,"standardDeviation":15.3188337241014,"durations":[422,438,406,406]},{"name":"Loading Logistics DB","progress":59,"averageDuration":667,"standardDeviation":107.102754399689,"durations":[609,625,609,828]},{"name":"Registering Customers","progress":65,"averageDuration":562,"standardDeviation":103.94229168149,"durations":[609,609,625,407]},{"name":"Cargando módulos","progress":74,"averageDuration":812,"standardDeviation":12.6885775404495,"durations":[813,813,797,828]},{"name":"Preparando interfaz","progress":85,"averageDuration":1023,"standardDeviation":171.99709299869,"durations":[1031,1015,813,1234]},{"name":"Listo","progress":100,"averageDuration":1433,"standardDeviation":175.678683965927,"durations":[1422,1485,1625,1203]}]}
+[2025-09-09 20:26:33.419] Ending StatusMapper session...
+[2025-09-09 20:26:33.434] ParseFromCommandLine: Parsing "SplashScreen.exe /pid:17430 /DEBUG"
+[2025-09-09 20:26:33.450] Final config - App: "", Version: "1.0", Loading: "Cargando", Learn: " (aprendiendo)", Beta: True, Start: "Inicializando sistema", Logo: ""
+[2025-09-09 20:26:33.450] AdaptiveLearning.SaveToFile called - Path: C:\Users\CYBER\AppData\Roaming\SplashScreen\splash_learning.json
+[2025-09-09 20:26:33.466] AdaptiveLearning.SaveToFile SUCCESS - Saved to: C:\Users\CYBER\AppData\Roaming\SplashScreen\splash_learning.json
+[2025-09-09 20:26:33.481] TProgressHistory.Destroy: Destroying, saving data
+[2025-09-09 20:26:33.481] ParseFromCommandLine: Parsing "SplashScreen.exe /pid:17430 /DEBUG"
+[2025-09-09 20:26:33.497] Final config - App: "", Version: "1.0", Loading: "Cargando", Learn: " (aprendiendo)", Beta: True, Start: "Inicializando sistema", Logo: ""
+[2025-09-09 20:26:33.512] GetHistoryFilePath: C:\Users\CYBER\AppData\Roaming\SplashScreen\splash_history.json
+[2025-09-09 20:26:33.512] ProgressHistory.SaveToFile called - Path: C:\Users\CYBER\AppData\Roaming\SplashScreen\splash_history.json
+[2025-09-09 20:26:33.535] Execution count NOT incremented (subsequent save), remains: 6
+[2025-09-09 20:26:33.546] ProgressHistory.SaveToFile SUCCESS - Saved to: C:\Users\CYBER\AppData\Roaming\SplashScreen\splash_history.json
+[2025-09-09 20:26:33.558] JSON CONTENT: {"totalDuration":9176,"executionCount":6,"lastExecutionTime":"09/09/2025 20:26:33","phases":[{"name":"Initializing application...","progress":5,"averageDuration":453,"standardDeviation":0.0,"durations":[453]},{"name":"Loading configuration...","progress":14,"averageDuration":828,"standardDeviation":0.0,"durations":[828]},{"name":"Connecting to database...","progress":21,"averageDuration":625,"standardDeviation":0.0,"durations":[625]},{"name":"Loading user interface...","progress":26,"averageDuration":422,"standardDeviation":0.0,"durations":[422]},{"name":"Ready!","progress":31,"averageDuration":438,"standardDeviation":0.0,"durations":[438]},{"name":"Inicializando sistema","progress":36,"averageDuration":460,"standardDeviation":47.0637865030004,"durations":[500,500,406,437]},{"name":"Cargando configuración","progress":47,"averageDuration":1035,"standardDeviation":23.2880512996114,"durations":[1016,1046,1016,1063]},{"name":"Verificando licencias","progress":52,"averageDuration":418,"standardDeviation":15.3188337241014,"durations":[422,438,406,406]},{"name":"Loading Logistics DB","progress":59,"averageDuration":667,"standardDeviation":107.102754399689,"durations":[609,625,609,828]},{"name":"Registering Customers","progress":65,"averageDuration":562,"standardDeviation":103.94229168149,"durations":[609,609,625,407]},{"name":"Cargando módulos","progress":74,"averageDuration":812,"standardDeviation":12.6885775404495,"durations":[813,813,797,828]},{"name":"Preparando interfaz","progress":85,"averageDuration":1023,"standardDeviation":171.99709299869,"durations":[1031,1015,813,1234]},{"name":"Listo","progress":100,"averageDuration":1433,"standardDeviation":175.678683965927,"durations":[1422,1485,1625,1203]}]}
+[2025-09-09 20:26:33.576] All managers destroyed
+[2025-09-09 20:26:33.586] ModernSplash form destroyed
+[2025-09-09 20:26:33.597] === Debug System Finalized ===
+[2025-09-09 20:27:26.043] === Debug System Initialized ===
+[2025-09-09 20:27:26.043] === SplashScreen.exe Started ===
+[2025-09-09 20:27:26.067] Command line: /pid:17626 /DEBUG
+[2025-09-09 20:27:26.082] ParseFromCommandLine: Parsing "/pid:17626 /DEBUG"
+[2025-09-09 20:27:26.086] Final config - App: "", Version: "1.0", Loading: "Cargando", Learn: " (aprendiendo)", Beta: True, Start: "Inicializando sistema", Logo: ""
+[2025-09-09 20:27:26.102] Parent PID: 17626
+[2025-09-09 20:27:26.106] DEBUG: Skipping parent process check for testing
+[2025-09-09 20:27:26.122] Parent process 17626 verified - proceeding
+[2025-09-09 20:27:26.122] TProgressHistory.Create: Constructor called, about to load from file
+[2025-09-09 20:27:26.137] LoadFromFile: Method called
+[2025-09-09 20:27:26.153] ParseFromCommandLine: Parsing "SplashScreen.exe /pid:17626 /DEBUG"
+[2025-09-09 20:27:26.153] Final config - App: "", Version: "1.0", Loading: "Cargando", Learn: " (aprendiendo)", Beta: True, Start: "Inicializando sistema", Logo: ""
+[2025-09-09 20:27:26.169] GetHistoryFilePath: C:\Users\CYBER\AppData\Roaming\SplashScreen\splash_history.json
+[2025-09-09 20:27:26.192] LoadFromFile: History file path: C:\Users\CYBER\AppData\Roaming\SplashScreen\splash_history.json
+[2025-09-09 20:27:26.201] LoadFromFile: File exists: True
+[2025-09-09 20:27:26.201] LoadFromFile: JSON text length: 1728
+[2025-09-09 20:27:26.224] LoadFromFile: Exception loading values: Invalid date string: 09/09/2025 20:26:33
+[2025-09-09 20:27:26.231] LoadFromFile: Loading 13 phases from JSON
+[2025-09-09 20:27:26.244] Loaded phase: "Initializing application..." with 1 durations
+[2025-09-09 20:27:26.257] Loaded phase: "Loading configuration..." with 1 durations
+[2025-09-09 20:27:26.274] Loaded phase: "Connecting to database..." with 1 durations
+[2025-09-09 20:27:26.288] Loaded phase: "Loading user interface..." with 1 durations
+[2025-09-09 20:27:26.304] Loaded phase: "Ready!" with 1 durations
+[2025-09-09 20:27:26.315] Loaded phase: "Inicializando sistema" with 4 durations
+[2025-09-09 20:27:26.328] Loaded phase: "Cargando configuración" with 4 durations
+[2025-09-09 20:27:26.340] Loaded phase: "Verificando licencias" with 4 durations
+[2025-09-09 20:27:26.354] Loaded phase: "Loading Logistics DB" with 4 durations
+[2025-09-09 20:27:26.365] Loaded phase: "Registering Customers" with 4 durations
+[2025-09-09 20:27:26.376] Loaded phase: "Cargando módulos" with 4 durations
+[2025-09-09 20:27:26.395] Loaded phase: "Preparando interfaz" with 4 durations
+[2025-09-09 20:27:26.407] Loaded phase: "Listo" with 4 durations
+[2025-09-09 20:27:26.418] TProgressHistory.Create: LoadFromFile completed, phases count: 13, executionCount: 6
+[2025-09-09 20:27:26.424] ParseFromCommandLine: Parsing "SplashScreen.exe /pid:17626 /DEBUG"
+[2025-09-09 20:27:26.440] Final config - App: "", Version: "1.0", Loading: "Cargando", Learn: " (aprendiendo)", Beta: True, Start: "Inicializando sistema", Logo: ""
+[2025-09-09 20:27:26.450] Session started. Learning mode: False
+[2025-09-09 20:27:26.465] All managers created successfully
+[2025-09-09 20:27:26.476] ModernSplash form created and initialized
+[2025-09-09 20:27:26.486] Splash form created successfully
+[2025-09-09 20:27:26.486] Splash initialized with config - App: "SplashScreen", Version: "1.0"
+[2025-09-09 20:27:26.508] Splash form initialized with configuration
+[2025-09-09 20:27:26.525] Failed to initialize IPC monitor: Failed to open mutex
+[2025-09-09 20:27:26.538] Failed to initialize monitoring: Failed to open mutex
+[2025-09-09 20:27:26.548] IPC monitoring started
+[2025-09-09 20:27:26.562] Starting application message loop
+[2025-09-09 20:27:26.872] Animation: Display=0,75 (75%), Target=0,10, Speed=1,0000, Duration=1000ms
+[2025-09-09 20:27:26.872] Animation: Display=0,77 (77%), Target=0,10, Speed=1,0000, Duration=1000ms
+[2025-09-09 20:27:26.939] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0200, Duration=1000ms
+[2025-09-09 20:27:26.953] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0200, Duration=1000ms
+[2025-09-09 20:27:26.981] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:26.981] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.012] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.012] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.029] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.053] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.065] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.076] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.081] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.097] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.122] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.122] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.154] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.165] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.180] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.185] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.216] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.216] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.247] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.247] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.278] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.278] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.335] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.342] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.356] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.356] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.387] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.387] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.403] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.419] Animation: Display=0,77 (77%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.434] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.434] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.469] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.469] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.506] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.517] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.539] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.543] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.559] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.559] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.575] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.590] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.606] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.622] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.653] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.653] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.684] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.684] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.716] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.727] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.745] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.748] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.780] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.780] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.809] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.809] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.825] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.841] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.856] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.856] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.887] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.887] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.903] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.919] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.938] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.948] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.960] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.966] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.981] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:27.981] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.012] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.013] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.028] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.028] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.044] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.068] Animation: Display=0,78 (78%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.076] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.092] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.122] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.122] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.153] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.153] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.168] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.168] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.200] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.200] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.231] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.231] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.262] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.271] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.285] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.294] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.310] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.310] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.340] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.340] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.356] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.378] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.389] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.399] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.404] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.418] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.434] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.451] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.472] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.491] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.510] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.516] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.531] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.544] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.559] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.575] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.575] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.590] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.622] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.622] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.637] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.653] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.653] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.668] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.684] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.701] Animation: Display=0,79 (79%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.722] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.732] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.747] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.762] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.778] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.794] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.809] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.827] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.838] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.848] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.864] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.872] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.887] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.903] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.919] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.919] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.945] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.951] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.966] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.981] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:28.997] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.012] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.028] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.043] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.043] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.059] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.075] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.090] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.106] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.121] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.150] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.161] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.169] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.169] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.184] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.200] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.200] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.216] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.231] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.247] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.278] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.278] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.309] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.309] Animation: Display=0,80 (80%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.340] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.340] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.356] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.356] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.381] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.388] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.404] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.404] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.434] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.434] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.465] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.465] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.489] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.498] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.512] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.512] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.528] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.528] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.559] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.559] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.590] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.600] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.607] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.607] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.623] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.637] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.653] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.653] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.689] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.689] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.731] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.731] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.762] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.762] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.778] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.795] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.809] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.820] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.841] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.841] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.872] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.872] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.903] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.914] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.934] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.934] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.965] Animation: Display=0,81 (81%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.981] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.997] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:29.997] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.012] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.028] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.049] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.074] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.081] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.096] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.106] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.122] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.132] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.152] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.154] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.169] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.169] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.200] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.200] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.231] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.231] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.256] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.262] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.279] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.294] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.309] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.309] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.341] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.341] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.356] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.372] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.383] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.390] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.406] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.406] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.434] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.434] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.450] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.450] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.482] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.504] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.512] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.528] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.528] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.560] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.570] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.582] Animation: Display=0,82 (82%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.592] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.606] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.606] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.637] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.637] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.668] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.668] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.700] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.700] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.731] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.731] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.762] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.762] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.793] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.793] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.825] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.825] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.856] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.856] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.887] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.898] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.911] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.920] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.933] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.940] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.955] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.955] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.984] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:30.996] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.003] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.022] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.032] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.047] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.047] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.063] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.091] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.106] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.122] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.137] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.153] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.169] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.200] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.200] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.215] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.238] Animation: Display=0,83 (83%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.247] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.255] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.278] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.278] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.309] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.309] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.340] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.340] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.372] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.382] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.403] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.413] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.434] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.444] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.455] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.464] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.481] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.481] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.512] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.512] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.528] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.543] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.559] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.569] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.591] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.591] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.622] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.622] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.653] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.663] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.675] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.685] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.700] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.700] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.731] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.731] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.762] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.762] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.786] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.794] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.810] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.810] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.840] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.840] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.856] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.871] Animation: Display=0,84 (84%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.887] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.887] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.908] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.917] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.920] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.935] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.951] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.951] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:31.996] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.008] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.041] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.044] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.075] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.075] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.106] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.117] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.137] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.137] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.169] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.169] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.203] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.213] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.250] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.250] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.278] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.278] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.293] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.309] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.325] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.325] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.356] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.356] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.372] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.372] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.403] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.403] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.433] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.443] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.451] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.451] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.497] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.497] Animation: Display=0,85 (85%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.528] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.537] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.548] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.557] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.575] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.575] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.606] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.606] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.622] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.622] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.653] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.663] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.685] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.685] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.715] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.715] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.746] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.746] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.778] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.779] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.794] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.794] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.825] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.825] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.856] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.856] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.878] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.889] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.902] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.911] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.922] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.932] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.966] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.966] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.986] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.996] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:32.998] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.012] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.028] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.028] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.059] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.059] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.091] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.103] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.121] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.124] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.139] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.156] Animation: Display=0,86 (86%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.176] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.197] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.247] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.260] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.293] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.299] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.315] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.325] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.354] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.357] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.376] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.386] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.403] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.414] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.434] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.443] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.451] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.451] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.497] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.497] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.528] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.537] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.544] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.544] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.579] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.588] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.604] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.606] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.622] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.622] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.653] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.655] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.669] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.684] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.700] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.715] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.731] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.731] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.762] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.764] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.779] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.793] Animation: Display=0,87 (87%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.809] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.825] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.840] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.857] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.872] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.872] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.903] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.903] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.934] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.945] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.965] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.976] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.997] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:33.997] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.028] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.028] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.059] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.068] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.080] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.090] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.106] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.106] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.137] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.137] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.153] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.169] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.184] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.195] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.217] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.231] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.247] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.247] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.282] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.293] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.309] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.325] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.345] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.353] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.356] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.372] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.402] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.412] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.420] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.420] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.436] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.467] Animation: Display=0,88 (88%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.481] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.497] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.516] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.527] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.529] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.544] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.559] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.559] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.591] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.606] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.622] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.622] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.637] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.653] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.684] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.684] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.719] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.729] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.747] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.748] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.778] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.778] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.809] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.809] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.843] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.854] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.873] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.873] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.903] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.903] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.934] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.934] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.955] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.964] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.980] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.981] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.997] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:34.997] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.028] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.028] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.059] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.069] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.077] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.077] Animation: Display=0,89 (89%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.122] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.122] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.153] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.153] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.186] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.186] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.216] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.216] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.247] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.247] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.278] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.288] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.310] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.310] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.341] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.341] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.356] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.377] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.387] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.399] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.403] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.403] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.419] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.435] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.473] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.484] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.514] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.514] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.530] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.544] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.559] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.575] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.575] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.590] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.613] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.622] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.637] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.653] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.653] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.669] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.684] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.700] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.722] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.733] Animation: Display=0,90 (90%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.733] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.748] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.762] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.778] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.794] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.809] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.825] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.838] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.841] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.856] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.871] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.887] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.903] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.918] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.934] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.950] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.960] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.984] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:35.994] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.015] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.025] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.036] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.044] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.075] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.075] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.106] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.106] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.121] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.137] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.153] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.153] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.184] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.184] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.215] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.215] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.231] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.246] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.262] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.262] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.278] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.293] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.309] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.309] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.340] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.340] Animation: Display=0,91 (91%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.371] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.381] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.406] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.406] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.434] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.434] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.450] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.466] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.481] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.481] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.512] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.512] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.528] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.528] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.559] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.559] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.590] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.602] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.622] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.622] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.653] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.653] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.668] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.684] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.700] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.700] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.731] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.731] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.762] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.762] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.778] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.793] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.793] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.809] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.825] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.840] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.856] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.872] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.887] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.912] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.923] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.933] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.935] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.950] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.950] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.966] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.981] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.997] Animation: Display=0,92 (92%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:36.997] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.020] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.035] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.044] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.060] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.075] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.091] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.106] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.106] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.126] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.145] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.154] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.154] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.184] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.200] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.200] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.215] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.238] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.249] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.279] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.294] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.309] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.309] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.325] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.341] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.356] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.356] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.387] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.387] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.403] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.419] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.434] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.434] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.482] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.492] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.514] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.515] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.531] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.544] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.559] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.559] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.591] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.591] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.606] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.622] Animation: Display=0,93 (93%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.653] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.653] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.668] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.689] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.699] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.710] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.731] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.736] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.753] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.769] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.787] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.799] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.825] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.825] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.856] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.869] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.885] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.887] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.904] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.919] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.935] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.950] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.968] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:37.981] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.004] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.015] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.039] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.046] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.058] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.075] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.090] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.090] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.106] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.121] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.137] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.153] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.168] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.168] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.184] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.200] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.217] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.231] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.243] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.263] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.263] Animation: Display=0,94 (94%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.280] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.294] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.309] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.309] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.325] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.340] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.356] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.356] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.387] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.397] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.413] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.419] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.450] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.480] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.500] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.525] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.537] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.573] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.577] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.586] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.612] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.622] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.642] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.657] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.668] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.709] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.722] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.731] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.746] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.748] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.770] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.785] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.796] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.841] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.845] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.868] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.885] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.889] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.905] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.919] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.935] Animation: Display=0,95 (95%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.950] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.962] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.962] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.981] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:38.997] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.012] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.027] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.039] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.045] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.061] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.091] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.091] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.118] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.128] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.137] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.153] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.171] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.186] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.200] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.217] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.233] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.249] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.249] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.262] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.278] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.293] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.309] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.336] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.356] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.372] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.387] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.403] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.403] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.429] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.442] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.450] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.450] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.497] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.512] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.530] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.543] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.560] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.575] Animation: Display=0,96 (96%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.590] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.609] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.648] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.663] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.684] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.693] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.730] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.735] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.762] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.790] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.810] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.810] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.825] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.840] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.856] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.856] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.887] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.896] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.906] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.919] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.927] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.950] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:39.995] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.014] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.044] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.060] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.070] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.080] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.092] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.103] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.122] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.137] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.153] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.168] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.184] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.184] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.215] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.215] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.247] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.247] Animation: Display=0,97 (97%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.278] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.278] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.309] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.309] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.341] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.356] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.372] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.372] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.387] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.403] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.419] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.439] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.452] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.452] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.467] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.481] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.497] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.512] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.550] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.561] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.573] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.576] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.622] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.622] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.653] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.653] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.669] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.669] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.700] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.700] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.731] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.731] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.762] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.771] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.781] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.793] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.809] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.809] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.840] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.840] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.856] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.856] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.880] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.889] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.904] Animation: Display=0,98 (98%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.904] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.934] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.934] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.966] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.976] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.989] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.999] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:40.999] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.028] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.028] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.059] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.059] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.087] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.099] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.107] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.107] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.122] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.138] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.158] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.168] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.200] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.200] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.231] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.247] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.262] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.262] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.280] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.293] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.309] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.320] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.342] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.342] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.372] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.376] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.403] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.413] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.427] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.436] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.450] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.466] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.481] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.481] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.497] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.512] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.529] Animation: Display=0,99 (99%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.541] Animation: Display=1,00 (100%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.562] Animation: Display=1,00 (100%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.572] Animation: Display=1,00 (100%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.578] Animation: Display=1,00 (100%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.593] Animation: Display=1,00 (100%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.621] Animation: Display=1,00 (100%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.637] Animation: Display=1,00 (100%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.664] Animation: Display=1,00 (100%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.670] Animation: Display=1,00 (100%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.700] Animation: Display=1,00 (100%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.715] Animation: Display=1,00 (100%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.731] Animation: Display=1,00 (100%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.731] Animation: Display=1,00 (100%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.763] Animation: Display=1,00 (100%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.778] Animation: Display=1,00 (100%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.782] Animation: Display=1,00 (100%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.793] Animation: Display=1,00 (100%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.809] Animation: Display=1,00 (100%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.825] Animation: Display=1,00 (100%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.840] Animation: Display=1,00 (100%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.856] Animation: Display=1,00 (100%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:27:41.856] Animation: Display=1,00 (100%), Target=0,10, Speed=0,0100, Duration=1000ms
+[2025-09-09 20:28:46.074] ModernSplash form closing
+[2025-09-09 20:28:46.091] Saving ProgressHistory...
+[2025-09-09 20:28:46.106] RecordPhaseEnd: SKIPPED (already ended or invalid state)
+[2025-09-09 20:28:46.122] ParseFromCommandLine: Parsing "SplashScreen.exe /pid:17626 /DEBUG"
+[2025-09-09 20:28:46.140] Final config - App: "", Version: "1.0", Loading: "Cargando", Learn: " (aprendiendo)", Beta: True, Start: "Inicializando sistema", Logo: ""
+[2025-09-09 20:28:46.153] GetHistoryFilePath: C:\Users\CYBER\AppData\Roaming\SplashScreen\splash_history.json
+[2025-09-09 20:28:46.153] ProgressHistory.SaveToFile called - Path: C:\Users\CYBER\AppData\Roaming\SplashScreen\splash_history.json
+[2025-09-09 20:28:46.169] Execution count incremented to: 7 (first save)
+[2025-09-09 20:28:46.184] ProgressHistory.SaveToFile SUCCESS - Saved to: C:\Users\CYBER\AppData\Roaming\SplashScreen\splash_history.json
+[2025-09-09 20:28:46.184] JSON CONTENT: {"totalDuration":9176,"executionCount":7,"lastExecutionTime":"09/09/2025 20:28:46","phases":[{"name":"Initializing application...","progress":5,"averageDuration":453,"standardDeviation":0.0,"durations":[453]},{"name":"Loading configuration...","progress":14,"averageDuration":828,"standardDeviation":0.0,"durations":[828]},{"name":"Connecting to database...","progress":21,"averageDuration":625,"standardDeviation":0.0,"durations":[625]},{"name":"Loading user interface...","progress":26,"averageDuration":422,"standardDeviation":0.0,"durations":[422]},{"name":"Ready!","progress":31,"averageDuration":438,"standardDeviation":0.0,"durations":[438]},{"name":"Inicializando sistema","progress":36,"averageDuration":460,"standardDeviation":47.0637865030004,"durations":[500,500,406,437]},{"name":"Cargando configuración","progress":47,"averageDuration":1035,"standardDeviation":23.2880512996114,"durations":[1016,1046,1016,1063]},{"name":"Verificando licencias","progress":52,"averageDuration":418,"standardDeviation":15.3188337241014,"durations":[422,438,406,406]},{"name":"Loading Logistics DB","progress":59,"averageDuration":667,"standardDeviation":107.102754399689,"durations":[609,625,609,828]},{"name":"Registering Customers","progress":65,"averageDuration":562,"standardDeviation":103.94229168149,"durations":[609,609,625,407]},{"name":"Cargando módulos","progress":74,"averageDuration":812,"standardDeviation":12.6885775404495,"durations":[813,813,797,828]},{"name":"Preparando interfaz","progress":85,"averageDuration":1023,"standardDeviation":171.99709299869,"durations":[1031,1015,813,1234]},{"name":"Listo","progress":100,"averageDuration":1433,"standardDeviation":175.678683965927,"durations":[1422,1485,1625,1203]}]}
+[2025-09-09 20:28:46.200] Ending StatusMapper session...
+[2025-09-09 20:28:46.215] ParseFromCommandLine: Parsing "SplashScreen.exe /pid:17626 /DEBUG"
+[2025-09-09 20:28:46.215] Final config - App: "", Version: "1.0", Loading: "Cargando", Learn: " (aprendiendo)", Beta: True, Start: "Inicializando sistema", Logo: ""
+[2025-09-09 20:28:46.231] AdaptiveLearning.SaveToFile called - Path: C:\Users\CYBER\AppData\Roaming\SplashScreen\splash_learning.json
+[2025-09-09 20:28:46.251] AdaptiveLearning.SaveToFile SUCCESS - Saved to: C:\Users\CYBER\AppData\Roaming\SplashScreen\splash_learning.json
+[2025-09-09 20:28:46.267] Session ended. Total executions: 5
+[2025-09-09 20:28:46.283] Application terminated normally
+[2025-09-09 20:28:46.294] ModernSplash form destroying
+[2025-09-09 20:28:46.309] Saving ProgressHistory...
+[2025-09-09 20:28:46.325] RecordPhaseEnd: SKIPPED (already ended or invalid state)
+[2025-09-09 20:28:46.325] ParseFromCommandLine: Parsing "SplashScreen.exe /pid:17626 /DEBUG"
+[2025-09-09 20:28:46.349] Final config - App: "", Version: "1.0", Loading: "Cargando", Learn: " (aprendiendo)", Beta: True, Start: "Inicializando sistema", Logo: ""
+[2025-09-09 20:28:46.357] GetHistoryFilePath: C:\Users\CYBER\AppData\Roaming\SplashScreen\splash_history.json
+[2025-09-09 20:28:46.373] ProgressHistory.SaveToFile called - Path: C:\Users\CYBER\AppData\Roaming\SplashScreen\splash_history.json
+[2025-09-09 20:28:46.387] Execution count NOT incremented (subsequent save), remains: 7
+[2025-09-09 20:28:46.387] ProgressHistory.SaveToFile SUCCESS - Saved to: C:\Users\CYBER\AppData\Roaming\SplashScreen\splash_history.json
+[2025-09-09 20:28:46.403] JSON CONTENT: {"totalDuration":9176,"executionCount":7,"lastExecutionTime":"09/09/2025 20:28:46","phases":[{"name":"Initializing application...","progress":5,"averageDuration":453,"standardDeviation":0.0,"durations":[453]},{"name":"Loading configuration...","progress":14,"averageDuration":828,"standardDeviation":0.0,"durations":[828]},{"name":"Connecting to database...","progress":21,"averageDuration":625,"standardDeviation":0.0,"durations":[625]},{"name":"Loading user interface...","progress":26,"averageDuration":422,"standardDeviation":0.0,"durations":[422]},{"name":"Ready!","progress":31,"averageDuration":438,"standardDeviation":0.0,"durations":[438]},{"name":"Inicializando sistema","progress":36,"averageDuration":460,"standardDeviation":47.0637865030004,"durations":[500,500,406,437]},{"name":"Cargando configuración","progress":47,"averageDuration":1035,"standardDeviation":23.2880512996114,"durations":[1016,1046,1016,1063]},{"name":"Verificando licencias","progress":52,"averageDuration":418,"standardDeviation":15.3188337241014,"durations":[422,438,406,406]},{"name":"Loading Logistics DB","progress":59,"averageDuration":667,"standardDeviation":107.102754399689,"durations":[609,625,609,828]},{"name":"Registering Customers","progress":65,"averageDuration":562,"standardDeviation":103.94229168149,"durations":[609,609,625,407]},{"name":"Cargando módulos","progress":74,"averageDuration":812,"standardDeviation":12.6885775404495,"durations":[813,813,797,828]},{"name":"Preparando interfaz","progress":85,"averageDuration":1023,"standardDeviation":171.99709299869,"durations":[1031,1015,813,1234]},{"name":"Listo","progress":100,"averageDuration":1433,"standardDeviation":175.678683965927,"durations":[1422,1485,1625,1203]}]}
+[2025-09-09 20:28:46.419] Ending StatusMapper session...
+[2025-09-09 20:28:46.434] ParseFromCommandLine: Parsing "SplashScreen.exe /pid:17626 /DEBUG"
+[2025-09-09 20:28:46.434] Final config - App: "", Version: "1.0", Loading: "Cargando", Learn: " (aprendiendo)", Beta: True, Start: "Inicializando sistema", Logo: ""
+[2025-09-09 20:28:46.450] AdaptiveLearning.SaveToFile called - Path: C:\Users\CYBER\AppData\Roaming\SplashScreen\splash_learning.json
+[2025-09-09 20:28:46.465] AdaptiveLearning.SaveToFile SUCCESS - Saved to: C:\Users\CYBER\AppData\Roaming\SplashScreen\splash_learning.json
+[2025-09-09 20:28:46.481] TProgressHistory.Destroy: Destroying, saving data
+[2025-09-09 20:28:46.481] ParseFromCommandLine: Parsing "SplashScreen.exe /pid:17626 /DEBUG"
+[2025-09-09 20:28:46.497] Final config - App: "", Version: "1.0", Loading: "Cargando", Learn: " (aprendiendo)", Beta: True, Start: "Inicializando sistema", Logo: ""
+[2025-09-09 20:28:46.518] GetHistoryFilePath: C:\Users\CYBER\AppData\Roaming\SplashScreen\splash_history.json
+[2025-09-09 20:28:46.526] ProgressHistory.SaveToFile called - Path: C:\Users\CYBER\AppData\Roaming\SplashScreen\splash_history.json
+[2025-09-09 20:28:46.544] Execution count NOT incremented (subsequent save), remains: 7
+[2025-09-09 20:28:46.559] ProgressHistory.SaveToFile SUCCESS - Saved to: C:\Users\CYBER\AppData\Roaming\SplashScreen\splash_history.json
+[2025-09-09 20:28:46.559] JSON CONTENT: {"totalDuration":9176,"executionCount":7,"lastExecutionTime":"09/09/2025 20:28:46","phases":[{"name":"Initializing application...","progress":5,"averageDuration":453,"standardDeviation":0.0,"durations":[453]},{"name":"Loading configuration...","progress":14,"averageDuration":828,"standardDeviation":0.0,"durations":[828]},{"name":"Connecting to database...","progress":21,"averageDuration":625,"standardDeviation":0.0,"durations":[625]},{"name":"Loading user interface...","progress":26,"averageDuration":422,"standardDeviation":0.0,"durations":[422]},{"name":"Ready!","progress":31,"averageDuration":438,"standardDeviation":0.0,"durations":[438]},{"name":"Inicializando sistema","progress":36,"averageDuration":460,"standardDeviation":47.0637865030004,"durations":[500,500,406,437]},{"name":"Cargando configuración","progress":47,"averageDuration":1035,"standardDeviation":23.2880512996114,"durations":[1016,1046,1016,1063]},{"name":"Verificando licencias","progress":52,"averageDuration":418,"standardDeviation":15.3188337241014,"durations":[422,438,406,406]},{"name":"Loading Logistics DB","progress":59,"averageDuration":667,"standardDeviation":107.102754399689,"durations":[609,625,609,828]},{"name":"Registering Customers","progress":65,"averageDuration":562,"standardDeviation":103.94229168149,"durations":[609,609,625,407]},{"name":"Cargando módulos","progress":74,"averageDuration":812,"standardDeviation":12.6885775404495,"durations":[813,813,797,828]},{"name":"Preparando interfaz","progress":85,"averageDuration":1023,"standardDeviation":171.99709299869,"durations":[1031,1015,813,1234]},{"name":"Listo","progress":100,"averageDuration":1433,"standardDeviation":175.678683965927,"durations":[1422,1485,1625,1203]}]}
+[2025-09-09 20:28:46.583] All managers destroyed
+[2025-09-09 20:28:46.591] ModernSplash form destroyed
+[2025-09-09 20:28:46.606] === Debug System Finalized ===

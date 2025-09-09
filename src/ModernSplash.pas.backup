@@ -1,0 +1,498 @@
+unit ModernSplash;
+
+interface
+
+uses
+  System.Classes, System.SysUtils, System.Types, System.UITypes, System.Math,
+  Vcl.Forms, Vcl.Controls, Vcl.ExtCtrls, Vcl.Graphics,
+  System.Skia, Vcl.Skia, Winapi.Windows,
+  ModernSplashBase, SplashConfig;
+
+type
+  TfrmModernSplash = class(TfrmModernSplashBase)
+  protected
+    // Override the main rendering method
+    procedure RenderSplashContent(const ACanvas: ISkCanvas; const ARect: TRectF); override;
+  private
+    // Main visual areas
+    procedure DrawHeaderArea(const ACanvas: ISkCanvas; const ARect: TRectF);
+    procedure DrawMiddleArea(const ACanvas: ISkCanvas; const ARect: TRectF);
+    procedure DrawProgressArea(const ACanvas: ISkCanvas; const ARect: TRectF);
+    procedure DrawFooterArea(const ACanvas: ISkCanvas; const ARect: TRectF);
+    // Original drawing methods now private to this implementation
+    procedure DrawContainer(const ACanvas: ISkCanvas; const ARect: TRectF);
+    procedure DrawLogo(const ACanvas: ISkCanvas; const ARect: TRectF);
+    procedure DrawBrandText(const ACanvas: ISkCanvas; const ARect: TRectF);
+    procedure DrawBetaBadge(const ACanvas: ISkCanvas; const ARect: TRectF);
+    procedure DrawProgressSection(const ACanvas: ISkCanvas; const ARect: TRectF);
+    procedure DrawVersionInfo(const ACanvas: ISkCanvas; const ARect: TRectF);
+    // Helper methods moved from base class
+    procedure DrawLoadingDots(const ACanvas: ISkCanvas; const AX, AY, AAnimationTime: Single);
+    procedure DrawBetaShimmer(const ACanvas: ISkCanvas; const ABadgeRect: TRectF; const AAnimationTime: Single);
+    procedure DrawStatusDots(const ACanvas: ISkCanvas; const AX, AY, AAnimationTime: Single);
+  end;
+
+var
+  frmModernSplash: TfrmModernSplash;
+
+implementation
+
+{$R *.dfm}
+
+const
+  // Colors specific to this implementation
+  COLOR_PURPLE = $FF7C3AED;
+  COLOR_PURPLE_LIGHT = $FFA855F7;
+  COLOR_ORANGE = $FFFF9800;
+  COLOR_ORANGE_LIGHT = $FFFFAB40;
+  COLOR_GRAY_TEXT = $FF6B7280;
+  COLOR_GRAY_STATUS = $FF6B7280;
+  COLOR_GRAY_VERSION = $FF9CA3AF;
+  COLOR_GRAY_LIGHT = $FFF5F5F5;
+  COLOR_WHITE = $FFFFFFFF;
+  
+  // Sizes
+  LOGO_SIZE = 84;
+  PROGRESS_HEIGHT = 6;
+  BETA_BADGE_HEIGHT = 30;
+  CONTAINER_RADIUS = 20.0;
+  
+  // Text constants
+  BETA_TEXT = 'BETA';
+  BETA_SUFFIX = '-beta';
+
+{ TfrmModernSplash }
+
+procedure TfrmModernSplash.RenderSplashContent(const ACanvas: ISkCanvas; const ARect: TRectF);
+begin
+  // Clear canvas with light gray background
+  ACanvas.Clear(COLOR_GRAY_LIGHT);
+  
+  // Draw container
+  DrawContainer(ACanvas, ARect);
+  
+  // Draw the 4 main areas
+  DrawHeaderArea(ACanvas, ARect);    // Logo + Brand text + Version
+  DrawMiddleArea(ACanvas, ARect);     // Beta badge or other indicators
+  DrawProgressArea(ACanvas, ARect);   // Loading caption + Progress bar + Status
+  DrawFooterArea(ACanvas, ARect);     // Version info at bottom
+end;
+
+procedure TfrmModernSplash.DrawContainer(const ACanvas: ISkCanvas; const ARect: TRectF);
+var
+  LPaint: ISkPaint;
+  LContainerRect, LShadowRect: TRectF;
+begin
+  LContainerRect := TRectF.Create(20, 20, ARect.Width - 20, ARect.Height - 20);
+  
+  // Draw shadow first (offset down and right slightly)
+  LShadowRect := TRectF.Create(24, 24, ARect.Width - 16, ARect.Height - 16);
+  LPaint := TSkPaint.Create;
+  LPaint.Style := TSkPaintStyle.Fill;
+  LPaint.Color := $197C3AED; // Semi-transparent purple for shadow
+  LPaint.AntiAlias := True;
+  ACanvas.DrawRoundRect(LShadowRect, CONTAINER_RADIUS, CONTAINER_RADIUS, LPaint);
+  
+  // Draw main white container background
+  LPaint := TSkPaint.Create;
+  LPaint.Style := TSkPaintStyle.Fill;
+  LPaint.Color := COLOR_WHITE;
+  LPaint.AntiAlias := True;
+  ACanvas.DrawRoundRect(LContainerRect, CONTAINER_RADIUS, CONTAINER_RADIUS, LPaint);
+end;
+
+procedure TfrmModernSplash.DrawHeaderArea(const ACanvas: ISkCanvas; const ARect: TRectF);
+begin
+  // Draw logo, brand text and version number in header area
+  DrawLogo(ACanvas, ARect);
+  DrawBrandText(ACanvas, ARect);
+end;
+
+procedure TfrmModernSplash.DrawMiddleArea(const ACanvas: ISkCanvas; const ARect: TRectF);
+begin
+  // Draw beta badge in middle area
+  DrawBetaBadge(ACanvas, ARect);
+end;
+
+procedure TfrmModernSplash.DrawProgressArea(const ACanvas: ISkCanvas; const ARect: TRectF);
+begin
+  // Draw progress section (loading caption, progress bar, status text)
+  DrawProgressSection(ACanvas, ARect);
+end;
+
+procedure TfrmModernSplash.DrawFooterArea(const ACanvas: ISkCanvas; const ARect: TRectF);
+begin
+  // Draw version info at bottom
+  DrawVersionInfo(ACanvas, ARect);
+end;
+
+procedure TfrmModernSplash.DrawLogo(const ACanvas: ISkCanvas; const ARect: TRectF);
+var
+  LDest: TRectF;
+  LCenterX, LCenterY: Single;
+  LSvg: ISkSVGDOM;
+begin
+  // Lazily parse once (important for AnimatedPaintBox)
+  LSvg := GetSvgLogo;
+  if LSvg = nil then
+    Exit;
+
+  // Position logo at top center with LOGO_SIZE dimensions
+  LCenterX := ARect.Width / 2;
+  LCenterY := 70; // Position at top, matching splash.png layout
+  
+  LDest := TRectF.Create(
+    LCenterX - LOGO_SIZE / 2,
+    LCenterY - LOGO_SIZE / 2,
+    LCenterX + LOGO_SIZE / 2,
+    LCenterY + LOGO_SIZE / 2
+  );
+
+  // Tell Skia how much space it should use (SVG has only viewBox)
+  LSvg.SetContainerSize(TSizeF.Create(Round(LOGO_SIZE), Round(LOGO_SIZE)));
+
+  // Render translated into LDest
+  ACanvas.Save;
+  try
+    ACanvas.Translate(LDest.Left, LDest.Top);
+    LSvg.Render(ACanvas);
+  finally
+    ACanvas.Restore;
+  end;
+end;
+
+procedure TfrmModernSplash.DrawBrandText(const ACanvas: ISkCanvas; const ARect: TRectF);
+var
+  LPaint: ISkPaint;
+  LFont: ISkFont;
+  LTypeface: ISkTypeface;
+  LTextBounds: TRectF;
+  LCyberMaxY: Single;
+begin
+  // Setup font for brand name
+  LTypeface := TSkTypeface.MakeFromName('Segoe UI', TSkFontStyle.Bold);
+  LFont := TSkFont.Create(LTypeface, 48);
+  
+  LPaint := TSkPaint.Create;
+  LPaint.AntiAlias := True;
+  
+  // Draw brand name with purple gradient
+  LPaint.Shader := CreateGradientShader(
+    COLOR_PURPLE,
+    COLOR_PURPLE_LIGHT,
+    TPointF.Create(0, 180),
+    TPointF.Create(0, 230)
+  );
+  
+  LFont.MeasureText(Configuration.AppName, LTextBounds);
+  LCyberMaxY := 200;
+  ACanvas.DrawSimpleText(Configuration.AppName, ARect.Width / 2 - LTextBounds.Width / 2 - 30, LCyberMaxY, LFont, LPaint);
+  
+  // Draw version number with orange gradient
+  LFont.Size := 56;
+  LPaint := TSkPaint.Create;
+  LPaint.AntiAlias := True;
+  LPaint.Shader := CreateGradientShader(
+    COLOR_ORANGE,
+    COLOR_ORANGE_LIGHT,
+    TPointF.Create(0, 180),
+    TPointF.Create(0, 240)
+  );
+  
+  LFont.MeasureText(Configuration.Version, LTextBounds);
+  ACanvas.DrawSimpleText(Configuration.Version, ARect.Width / 2 + 100, LCyberMaxY, LFont, LPaint);
+end;
+
+procedure TfrmModernSplash.DrawBetaBadge(const ACanvas: ISkCanvas; const ARect: TRectF);
+var
+  LPaint: ISkPaint;
+  LFont: ISkFont;
+  LTypeface: ISkTypeface;
+  LBadgeRect: TRectF;
+  LTextBounds: TRectF;
+begin
+  if not IsBeta then Exit;
+  
+  // Badge rectangle
+  LBadgeRect := TRectF.Create(ARect.Width / 2 - 50, 250, ARect.Width / 2 + 50, 250 + BETA_BADGE_HEIGHT);
+  
+  // Draw badge background
+  LPaint := TSkPaint.Create;
+  LPaint.Style := TSkPaintStyle.Fill;
+  LPaint.Color := $19FF9800; // Semi-transparent orange
+  LPaint.AntiAlias := True;
+  ACanvas.DrawRoundRect(LBadgeRect, 16, 16, LPaint);
+  
+  // Draw badge border
+  LPaint := TSkPaint.Create;
+  LPaint.Style := TSkPaintStyle.Stroke;
+  LPaint.Color := $4DFF9800; // Semi-transparent orange border
+  LPaint.StrokeWidth := 1;
+  LPaint.AntiAlias := True;
+  ACanvas.DrawRoundRect(LBadgeRect, 16, 16, LPaint);
+  
+  // Draw shimmer effect
+  DrawBetaShimmer(ACanvas, LBadgeRect, AnimationTime);
+  
+  // Draw beta badge text
+  LTypeface := TSkTypeface.MakeFromName('Segoe UI', TSkFontStyle.Bold);
+  LFont := TSkFont.Create(LTypeface, 12);
+  
+  LPaint := TSkPaint.Create;
+  LPaint.Style := TSkPaintStyle.Fill;
+  LPaint.Color := COLOR_ORANGE;
+  LPaint.AntiAlias := True;
+  
+  LFont.MeasureText(BETA_TEXT, LTextBounds);
+  ACanvas.DrawSimpleText(BETA_TEXT, 
+    LBadgeRect.Left + (LBadgeRect.Width - LTextBounds.Width) / 2,
+    LBadgeRect.Top + (LBadgeRect.Height + LTextBounds.Height) / 2 - 2,
+    LFont, LPaint);
+end;
+
+procedure TfrmModernSplash.DrawProgressSection(const ACanvas: ISkCanvas; const ARect: TRectF);
+var
+  LPaint: ISkPaint;
+  LFont: ISkFont;
+  LTypeface: ISkTypeface;
+  LProgressRect, LProgressFillRect: TRectF;
+  LTextY, LProgressY, LStatusY: Single;
+  LTextBounds: TRectF;
+begin
+  LTextY := 320;
+  LProgressY := 345;
+  LStatusY := 365;
+  
+  // Draw loading caption text with animated dots
+  LTypeface := TSkTypeface.MakeFromName('Segoe UI', TSkFontStyle.Normal);
+  LFont := TSkFont.Create(LTypeface, 16);
+  
+  LPaint := TSkPaint.Create;
+  LPaint.Style := TSkPaintStyle.Fill;
+  LPaint.Color := COLOR_GRAY_TEXT;
+  LPaint.AntiAlias := True;
+  
+  LFont.MeasureText(Configuration.LoadingCaption, LTextBounds);
+  ACanvas.DrawSimpleText(Configuration.LoadingCaption, ARect.Width / 2 - LTextBounds.Width / 2 - 15, LTextY, LFont, LPaint);
+  
+  // Draw animated loading dots after loading caption
+  DrawLoadingDots(ACanvas, ARect.Width / 2 + LTextBounds.Width / 2 + 5, LTextY - 5, AnimationTime);
+  
+  // Draw progress bar background
+  LProgressRect := TRectF.Create(100, LProgressY, ARect.Width - 100, LProgressY + PROGRESS_HEIGHT);
+  
+  LPaint := TSkPaint.Create;
+  LPaint.Style := TSkPaintStyle.Fill;
+  LPaint.Color := $197C3AED; // Semi-transparent purple
+  LPaint.AntiAlias := True;
+  ACanvas.DrawRoundRect(LProgressRect, 3, 3, LPaint);
+  
+  // Draw progress bar fill using animated display progress
+  if DisplayProgress > 0 then
+  begin
+    LProgressFillRect := TRectF.Create(
+      LProgressRect.Left,
+      LProgressRect.Top,
+      LProgressRect.Left + (LProgressRect.Width * DisplayProgress),
+      LProgressRect.Bottom
+    );
+    
+    // Store the real painted bar width for debug output
+    LastPaintedBarWidth := LProgressRect.Width * DisplayProgress;
+    
+    LPaint := TSkPaint.Create;
+    LPaint.Style := TSkPaintStyle.Fill;
+    LPaint.AntiAlias := True;
+    LPaint.Shader := CreateGradientShader(
+      COLOR_PURPLE,
+      COLOR_ORANGE,
+      TPointF.Create(LProgressRect.Left, LProgressY),
+      TPointF.Create(LProgressRect.Right, LProgressY)
+    );
+    ACanvas.DrawRoundRect(LProgressFillRect, 3, 3, LPaint);
+  end
+  else
+  begin
+    // No progress to show, store 0 width
+    LastPaintedBarWidth := 0;
+  end;
+  
+  // Draw status text
+  LFont.Size := 14;
+  LPaint := TSkPaint.Create;
+  LPaint.Style := TSkPaintStyle.Fill;
+  LPaint.Color := COLOR_GRAY_STATUS;
+  LPaint.AntiAlias := True;
+  
+  LFont.MeasureText(StatusText, LTextBounds);
+  ACanvas.DrawSimpleText(StatusText, ARect.Width / 2 - LTextBounds.Width / 2, LStatusY, LFont, LPaint);
+  
+  // Draw fading status dots after status text
+  DrawStatusDots(ACanvas, ARect.Width / 2 + LTextBounds.Width / 2 + 5, LStatusY, AnimationTime);
+end;
+
+procedure TfrmModernSplash.DrawVersionInfo(const ACanvas: ISkCanvas; const ARect: TRectF);
+var
+  LPaint: ISkPaint;
+  LFont: ISkFont;
+  LTypeface: ISkTypeface;
+  LVersionText: string;
+begin
+  LVersionText := Configuration.GetVersionText;
+  if IsBeta then
+    LVersionText := LVersionText + BETA_SUFFIX;
+  
+  LTypeface := TSkTypeface.MakeFromName('Courier New', TSkFontStyle.Normal);
+  LFont := TSkFont.Create(LTypeface, 12);
+  
+  LPaint := TSkPaint.Create;
+  LPaint.Style := TSkPaintStyle.Fill;
+  LPaint.Color := COLOR_GRAY_VERSION;
+  LPaint.AntiAlias := True;
+  
+  ACanvas.DrawSimpleText(LVersionText, ARect.Width - 120, ARect.Height - 25, LFont, LPaint);
+end;
+
+procedure TfrmModernSplash.DrawStatusDots(const ACanvas: ISkCanvas; const AX, AY, AAnimationTime: Single);
+const
+  DOT_SPACING = 8.0;        // 8px spacing between text dots
+  ANIMATION_DURATION = 1.5; // 1.5 second cycle (from HTML)
+  ANIMATION_DELAYS: array[0..2] of Single = (0.0, 0.2, 0.4); // HTML delays for status dots
+var
+  LPaint: ISkPaint;
+  LFont: ISkFont;
+  LTypeface: ISkTypeface;
+  I: Integer;
+  LDotX: Single;
+  LAnimTime, LOpacity: Single;
+begin
+  // Setup font for dots (same as status text)
+  LTypeface := TSkTypeface.MakeFromName('Segoe UI', TSkFontStyle.Normal);
+  LFont := TSkFont.Create(LTypeface, 14);
+  
+  LPaint := TSkPaint.Create;
+  LPaint.Style := TSkPaintStyle.Fill;
+  LPaint.AntiAlias := True;
+  
+  // Draw 3 fading text dots (different from bouncing circles)
+  for I := 0 to 2 do
+  begin
+    // Calculate position for this dot
+    LDotX := AX + (I * DOT_SPACING);
+    
+    // Calculate animation time with staggered delay
+    LAnimTime := (AAnimationTime + ANIMATION_DELAYS[I]) / ANIMATION_DURATION;
+    
+    // Fade animation: opacity 0 → 1 → 0 (matches HTML dot-fade animation)
+    LOpacity := 0.5 + 0.5 * Abs(Sin(LAnimTime * 2 * Pi));
+    
+    // Apply opacity to paint
+    LPaint.Color := (Trunc(LOpacity * 255) shl 24) or (COLOR_GRAY_TEXT and $00FFFFFF);
+    
+    // Draw text dot
+    ACanvas.DrawSimpleText('.', LDotX, AY, LFont, LPaint);
+  end;
+end;
+
+procedure TfrmModernSplash.DrawLoadingDots(const ACanvas: ISkCanvas; const AX, AY, AAnimationTime: Single);
+const
+  DOT_SIZE = 3.0;          // 6px diameter = 3px radius
+  DOT_SPACING = 4.0;       // 4px spacing between dots
+  ANIMATION_DURATION = 1.4; // 1.4 second cycle (from HTML)
+  ANIMATION_DELAYS: array[0..2] of Single = (-0.32, -0.16, 0.0); // HTML delays
+var
+  LPaint: ISkPaint;
+  I: Integer;
+  LDotX, LDotY: Single;
+  LAnimTime, LScale, LOpacity: Single;
+  LCurrentRadius: Single;
+begin
+  LPaint := TSkPaint.Create;
+  LPaint.Style := TSkPaintStyle.Fill;
+  LPaint.AntiAlias := True;
+  LPaint.Color := COLOR_GRAY_TEXT; // Same color as loading caption text
+  
+  // Draw 3 bouncing dots with different animation than status dots
+  for I := 0 to 2 do
+  begin
+    // Calculate position for this dot
+    LDotX := AX + (I * (DOT_SIZE * 2 + DOT_SPACING));
+    LDotY := AY;
+    
+    // Calculate animation time with staggered delay
+    LAnimTime := (AAnimationTime + ANIMATION_DELAYS[I]) / ANIMATION_DURATION;
+    
+    // Enhanced bounce animation matching HTML: 0%, 80%, 100% = scale(1), 40% = scale(1.3)
+    LScale := 1.0 + 0.3 * Abs(Sin(LAnimTime * 2 * Pi));
+    LOpacity := 0.5 + 0.5 * Abs(Sin(LAnimTime * 2 * Pi));
+    
+    // Calculate current radius with scale
+    LCurrentRadius := DOT_SIZE * LScale;
+    
+    // Apply opacity to paint
+    LPaint.Color := (Trunc(LOpacity * 255) shl 24) or (COLOR_GRAY_TEXT and $00FFFFFF);
+    
+    // Draw the dot
+    ACanvas.DrawCircle(LDotX, LDotY, LCurrentRadius, LPaint);
+  end;
+end;
+
+procedure TfrmModernSplash.DrawBetaShimmer(const ACanvas: ISkCanvas; const ABadgeRect: TRectF; const AAnimationTime: Single);
+const
+  SHIMMER_DURATION = 3.0; // 3 second cycle
+var
+  LPaint: ISkPaint;
+  LShimmerRect: TRectF;
+  LAnimProgress: Single;
+  LShimmerX: Single;
+  LShimmerWidth: Single;
+  LGradientStart, LGradientEnd: TPointF;
+  LShader: ISkShader;
+begin
+  // Calculate animation progress (0.0 to 1.0)
+  LAnimProgress := Frac(AAnimationTime / SHIMMER_DURATION);
+  
+  // Calculate shimmer position: moves from -100% to +200% (300% total travel)
+  // At 0%: shimmer is at left -100% (completely left of badge)  
+  // At 100%: shimmer is at left +200% (completely right of badge)
+  LShimmerWidth := ABadgeRect.Width;
+  LShimmerX := ABadgeRect.Left + (-LShimmerWidth) + (LAnimProgress * 3 * LShimmerWidth);
+  
+  // Create shimmer rectangle
+  LShimmerRect := TRectF.Create(
+    LShimmerX,
+    ABadgeRect.Top,
+    LShimmerX + LShimmerWidth,
+    ABadgeRect.Bottom
+  );
+  
+  // Create gradient shader: transparent -> orange -> transparent
+  LGradientStart := TPointF.Create(LShimmerRect.Left, LShimmerRect.Top);
+  LGradientEnd := TPointF.Create(LShimmerRect.Right, LShimmerRect.Top);
+  
+  // Use semi-transparent orange as in HTML: rgba(255, 152, 0, 0.2) = $33FF9800
+  LShader := TSkShader.MakeGradientLinear(
+    LGradientStart, 
+    LGradientEnd,
+    [$00FF9800, $33FF9800, $00FF9800], // Transparent, semi-transparent orange, transparent
+    [0.0, 0.5, 1.0], // Color stops
+    TSkTileMode.Clamp
+  );
+  
+  // Draw the shimmer effect clipped to the badge area
+  ACanvas.Save;
+  try
+    ACanvas.ClipRoundRect(TSkRoundRect.Create(ABadgeRect, 16, 16), TSkClipOp.Intersect, True);
+    
+    LPaint := TSkPaint.Create;
+    LPaint.Style := TSkPaintStyle.Fill;
+    LPaint.Shader := LShader;
+    LPaint.AntiAlias := True;
+    
+    ACanvas.DrawRect(LShimmerRect, LPaint);
+  finally
+    ACanvas.Restore;
+  end;
+end;
+
+end.
