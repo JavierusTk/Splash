@@ -18,18 +18,11 @@ Test implements a sophisticated dual-process splash screen system for Delphi app
 Build both projects (required for full functionality):
 ```bash
 # Build splash screen executable first
-compilar SplashScreen
+delphi-compiler.exe W:\Public\Splash\SplashScreen.dproj
 
 # Build main application
-compilar Test
+delphi-compiler.exe W:\Public\Splash\Test.dproj
 ```
-
-Build using group project (builds both automatically):
-```bash
-# Note: Group project may not work with compilar command
-# Build individually instead as shown above
-```
-
 
 ### Running the Application
 - Main application: `Test.exe` (automatically launches splash screen)
@@ -49,24 +42,21 @@ del "%APPDATA%\[YourAppName]\*.json"
 
 ## Architecture Overview
 
-### Current Architecture (After Refactoring)
+### Source Layout
 
-The system now follows the Single Responsibility Principle with specialized managers:
+Units live flat in `src/` (no subfolders), one manager per responsibility:
 
 ```
 src/
-├── Core/
-│   └── ModernSplash.pas         # Thin form coordinator (~250 lines)
-├── Rendering/
-│   ├── SplashRenderingManager.pas   # All visual rendering logic
-│   ├── SplashStyleProvider.pas      # Colors, fonts, constants
-│   └── SplashLayoutCalculator.pas   # Element positioning
-├── Lifecycle/
-│   └── SplashLifecycleManager.pas   # Process lifecycle management
-└── [Other components...]
+├── ModernSplash.pas, ModernSplashBase.pas     # Thin form coordinator
+├── SplashRenderingManager.pas                 # All visual rendering logic
+├── SplashStyleProvider.pas                    # Colors, fonts, constants
+├── SplashLayoutCalculator.pas                 # Element positioning
+├── SplashLifecycleManager.pas                 # Process lifecycle management
+├── SplashIPCManager.pas, IPCShared.pas        # IPC with the main application
+├── ProgressLearning.pas, AdaptiveLearning.pas # Learning systems
+└── SplashAnimationController.pas, SplashProgressManager.pas, SplashConfig.pas, ...
 ```
-
-Each manager has a single, well-defined responsibility, making the code more maintainable and testable.
 
 ### Dual-Process Architecture
 
@@ -102,8 +92,7 @@ The system consists of two separate executables:
   - Stores data in `splash_learning.json`
 
 **UI Components**
-- `ModernSplashForm.pas`: Skia-powered splash screen with 60 FPS animations
-- `modern-splash-screen.html`: HTML/CSS design prototype and reference
+- `src/ModernSplash.pas` (+ `ModernSplashBase.pas`): Skia-powered splash form with 60 FPS animations
 
 ### Key Technologies
 
@@ -148,35 +137,3 @@ The system consists of two separate executables:
 - JSON format learning files with automatic percentage recalculation
 - Timing history: phase durations, averages, standard deviations
 - Progress mapping: status sequences, transitions, confidence scores
-
-## HTML Prototype Details
-
-The `modern-splash-screen.html` file serves as a design reference and includes:
-
-### Visual Design Elements
-- **Logo**: C-shaped design with star accent, matching the Delphi implementation
-- **Typography**: "CYBERMAX" in purple gradient, "25" in orange gradient
-- **Progress Bar**: Animated gradient from purple to orange
-- **Loading States**: Dynamic status text with animated dots
-- **Beta Badge**: Optional badge with shimmer effect
-
-### Technical Features
-- **Responsive Design**: Adapts to mobile screens (breakpoint at 640px)
-- **Dark Mode**: Full dark theme support with toggle button
-- **CSS Animations**: Pure CSS for all animations (no JavaScript required)
-- **Production Mode**: Add `class="production"` to body element to hide beta elements
-
-### Loading Status Messages
-The prototype demonstrates the same loading sequence as the Delphi version:
-1. "Inicializando sistema" (10%)
-2. "Cargando configuración" (30%)
-3. "Proyectos Cargando bases de datos" (50%)
-4. "Cargando módulos" (70%)
-5. "Preparando interfaz" (90%)
-6. "Listo" (100%)
-
-### Implementation Notes
-- Uses CSS custom properties for easy theming
-- Gradient animations use CSS transforms for performance
-- Loading dots are absolutely positioned to prevent text shifting
-- Progress bar can be controlled via JavaScript by setting width style
